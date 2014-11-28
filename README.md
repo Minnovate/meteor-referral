@@ -1,4 +1,4 @@
 meteor-referral
 ===============
 
-Meteor package to add a flexible referral system to your app.
+Meteor package to add a flexible referral system to your app
