@@ -1,8 +1,8 @@
 Package.describe({
   name: 'denisl:referral',
-  summary: 'A easy to use referral system for Meteor.',
+  summary: 'An easy to use referral system for Meteor.',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/DenLes/meteor-referral.git'
 });
 
 Package.onUse(function(api) {
@@ -14,4 +14,9 @@ Package.onTest(function(api) {
   api.use('tinytest');
   api.use('denisl:referral');
   api.addFiles('denisl:referral-tests.js');
+});
+
+// Our NPM dependencies.
+Npm.depends({
+
 });
